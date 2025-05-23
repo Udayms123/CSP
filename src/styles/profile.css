@@ -1,0 +1,109 @@
+
+.profile-container {
+  max-width: 500px;
+  width: 100%;
+  margin-left: 60px; 
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 18px;    
+  font-weight: bold;
+}
+
+
+.toggle-link span {
+  cursor: pointer;
+  color: #555;
+  font-size: 14px;
+  user-select: none;
+}
+
+.toggle-link .active {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Card container */
+.profile-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: 400px; /* Helps keep consistent size between modes */
+}
+
+/* Each form item */
+.profile-item {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.profile-item label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* View mode display */
+.profile-item p {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+/* Input styles */
+.profile-item input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Actions */
+.profile-actions {
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Save button */
+.save-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-btn:hover {
+  background-color: #999;
+}

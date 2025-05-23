@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Project A",
+    "customer": "Project A",
+    "description": "Description A",
+    "startDate": "2025-01-01",
+    "endDate": "2025-12-31",
+    "warranty": "1 year",
+    "status": "Completed",
+    "owner": "Uday"
+  }
+]

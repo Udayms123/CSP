@@ -1,0 +1,106 @@
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal h2 {
+  margin-bottom: 1rem;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal input,
+.modal textarea,
+.modal select {
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.modal-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-buttons button[type="submit"] {
+  background-color: #0070f3;
+  color: white;
+}
+
+.modal-buttons button[type="button"] {
+  background-color: #ccc;
+}
+
+/* Dashboard general styles */
+.dashboard-content {
+  padding: 20px;
+}
+
+.create-new-container {
+  margin: 20px 0;
+}
+
+.create-new-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.projects-table th,
+.projects-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-controls select,
+.pagination-controls button {
+  padding: 6px 12px;
+  margin-left: 8px;
+}

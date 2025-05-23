@@ -1,0 +1,135 @@
+
+.entry-page {
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  height: 100vh;
+  background-color: #f3f4f6;  */
+}
+
+/* Content wrapper */
+.entry-container {
+  position: relative;
+  width: 85%;
+  height: 80vh;
+  margin: 1rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+/* Divider */
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #d1d5db; /* gray-300 */
+  transform: rotate(10deg); /* simulate ~100 degree bend */
+  transform-origin: center;
+  z-index: 1;
+}
+
+/* Left section */
+/* .entry-left { */
+.entry-left {
+  flex: 1;
+  padding: 1.5rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.entry-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1f2937; 
+   justify-content: center;
+}
+
+.login-button {
+  padding: 0.5rem 1.5rem;
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #1d4ed8; /* blue-700 */
+}
+
+/* Right section */
+.entry-right {
+    /* background-color: grey; */
+  flex: 1;
+  padding: 1.5rem;
+  z-index: 2;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+}
+
+.entry-logo {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .entry-container {
+    flex-direction: column;
+  }
+
+  .divider {
+    display: none;
+    width: 5px;
+    
+  }
+  .service-logo{
+     /* display: none; */
+      max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  }
+
+/* .divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 51px; 
+  background-color: #d1d5db; 
+  transform: rotate(10deg);
+  transform-origin: center;
+  z-index: 1;
+  display: block; 
+} */
+
+
+  /* .entry-logo {
+    max-width: 70%;
+    min-width: 60%;
+  } */
+
+  .service-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+
+
+}

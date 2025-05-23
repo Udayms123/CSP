@@ -1,0 +1,103 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6;
+  padding: 1rem;
+}
+
+.form-title {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1f2937;
+}
+
+.login-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forgot-password-link {
+  text-align: right;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  color: #2563eb;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.login-button:hover {
+  background-color: #1d4ed8;
+}
+
+.signup-prompt {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.signup-link {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 0.2rem;
+}
+
+/* Role toggle */
+.role-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user-login-button,
+.admin-login-button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.user-login-button {
+  background-color: #e0f2fe; /* light blue */
+  border: 2px solid #38bdf8;
+  color: #0369a1;
+}
+
+.admin-login-button {
+  background-color: #fef3c7; /* light yellow */
+  border: 2px solid #facc15;
+  color: #92400e;
+}
+
+.user-login-button.active,
+.admin-login-button.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
