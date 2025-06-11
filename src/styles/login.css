@@ -1,10 +1,11 @@
 .login-container {
-  height: 100vh;
+  height: 99vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f3f4f6;
+  background-color: lightcyan;
+  border: black;
   padding: 1rem;
 }
 
@@ -39,24 +40,24 @@
 .login-button {
   background-color: #2563eb;
   color: white;
-  padding: 0.6rem;
+  /* padding: 0.6rem; */
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-top: 1rem;
+  /* margin-top: 0.5rem; */
 }
 
 .login-button:hover {
   background-color: #1d4ed8;
 }
 
-.signup-prompt {
+/* .signup-prompt {
   text-align: center;
   margin-top: 1rem;
   font-size: 0.9rem;
-}
+} */
 
 .signup-link {
   color: #2563eb;
@@ -100,4 +101,71 @@
   background-color: #2563eb;
   color: white;
   border-color: #2563eb;
+}
+
+
+
+.mode-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.70rem 0;
+}
+
+.toggle-button {
+  padding: 0.55rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid bl;
+  background-color: white;
+  color: #007bff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #e6f0ff;
+}
+
+.toggle-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+
+
+.social-login  {
+  display: flex;
+  /* gap: 0.81rem; */
+  
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  border-radius: 0.31rem;
+  align-items: center;
+  justify-content: center;
+  background:  lightcyan;
+
+ 
+   display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically if height is set */
+  padding: 2rem;
+  
+  /* gap: 1rem; */
+}
+
+.Bel_icon {
+   width: 20px;   /* adjust size as needed */
+  height: 20px;
+
+  
+  /* object-fit: contain; */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  
 }

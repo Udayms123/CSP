@@ -40,6 +40,7 @@ const ProfilePage = () => {
   return (
     <>
       <Header />
+      
       <div className="profile-container">
         <div className="profile-header">
           <span className="toggle-link">
@@ -122,7 +123,7 @@ const ProfilePage = () => {
             )}
           </div>
 
-          {/* Save Button (only in edit mode) */}
+         
           {isEditing && (
             <div className="profile-actions">
               <button className="save-btn" onClick={handleSave}>

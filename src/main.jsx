@@ -18,8 +18,11 @@ import Dashboard from "./pages/dashboard.jsx";
 import ProfilePage from './pages/ProfilePage';
 import ChangePassword from './pages/change.jsx'; 
 import EntryPage from './pages/entry_page.jsx'; 
+import DemoPage from './pages/Demo.jsx'; 
 import ForgotPassword from './pages/forgot_passwd.jsx'; 
-// import ChangePassword from './pages/change.jsx';
+
+
+
 
 
 
@@ -36,21 +39,22 @@ import './styles/login.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+   
     <BrowserRouter>
       <Routes>
         
          <Route path="/" element={<EntryPage />} />
          <Route path="/login" element={<App />} />
-        {/* <Route path="/dashboard" element={<Dashboard />} /> */}
-        {/* <Route path="/forgot-password" element={<ForgotPassword />} />  */}
-        <Route path="/forgot-password" element={<Dashboard />} /> 
+         <Route path="/demo" element={<DemoPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} /> 
+        {/* <Route path="/forgot-password" element={<Dashboard />} />  */}
          <Route path="/profile" element={<ProfilePage />} />
            <Route path="/change-password" element={<ChangePassword />} />
-            {/* <Route path="/admin/dashboard" element={<Dashboard />} /> */}
+           
 
-           {/* <Route path="/CSP" element={<EntryPage />} /> */}
+           
 
-        
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

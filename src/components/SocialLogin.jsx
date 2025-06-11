@@ -4,6 +4,7 @@ const SocialLogin = () => {
   return (
     <div className="social-login">
       <img src="BelLogo.png" alt="Bel_logo" className="Bel-icon" />
+        
     </div>
   );
 };

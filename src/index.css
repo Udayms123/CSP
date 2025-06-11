@@ -56,7 +56,7 @@ body {
 
 .social-login .social-button:hover {
   border-color: #5F41E4;
-  background: #f1eff9;
+  background: pink;
 }
 
 .social-login .social-button .social-icon {
@@ -67,7 +67,7 @@ body {
   position: relative;
   margin: 1.5rem 0;
   text-align: center;
-  background: #fff;
+  background: pink;
 }
 
 .login-container .separator span {
@@ -75,7 +75,7 @@ body {
   font-weight: 500;
   color: #6652BE;
   position: relative;
-  background: #fff;
+  background: pink;
   font-size: 1.06rem;
   padding: 0 0.9rem;
 }
@@ -87,7 +87,7 @@ body {
   top: 50%;
   height: 1px;
   width: 100%;
-  background: #bfb3f2;
+  background: pink;
 }
 
 .login-form .input-wrapper {
@@ -201,39 +201,6 @@ body {
 
 
 
-
-.social-login  {
-  display: flex;
-  gap: 0.81rem;
-  
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-
-  border-radius: 0.31rem;
-  align-items: center;
-  justify-content: center;
-  background: #F9F8FF;
-
- 
-   display: flex;
-  justify-content: center; /* centers horizontally */
-  align-items: center;     /* centers vertically if height is set */
-  padding: 2rem;
-  
-  gap: 6rem; /* <-- Add this */
-}
-
-.Bel_icon {
-   width: 20px;   /* adjust size as needed */
-  height: 20px;
-
-  
-  /* object-fit: contain; */
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
-  
-}
 
 
 .error-message {
